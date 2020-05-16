@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Smart Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/my_style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="D:/HP/Desktop/WEB_final/js/my_script.js" defer></script>
+        <script src="js/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand justify-content-space-between pt-4">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <a class="navbar-brand" href="#">
+                    <img src="D:/HP/Desktop/WEB_final/img/Logo.png" alt="logo" style="width:70px;">
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="control.html">Control</a>
+                    <a class="nav-link" href="user.html">User</a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr color="#DEB992">
+        <h2 id="user" class="text-light text-center"></h2>
+   
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                </div>
+            </div>
+            <div class="row space-rows" id="animated-cards">
+                <div class="col">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header"><span class="space"><i class="" id="weather"></i></span>
+                            <div class="cardheader-text">
+                                <p id="temp" class="cardheader-subtext text-center" style="font-size: 60px;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header"><span class="space"><i class="fas fa-hand-holding-usd" id="service-icon-2"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-2" class="heading-card pt-3">USD->RUB</h4>
+                                <p id="dollar" class="cardheader-subtext"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover">
+                        <div class="card-header cards-header-hover"><span class="space"><i class="fas fa-air-freshener" id="service-icon-3"></i></span>
+                            <div class="cardheader-text">
+                                <h4 id="heading-card-3" class="heading-card">Air Quality</h4>
+                                <p id="air" class="cardheader-subtext" style="font-size: 30px;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer" style="color: #E29578;">
+            <p class="pt-3">Copyright© 2020 Sadriddin Zuhra</p>
+        </div>
+
+    </body>
+
+</html>
+
