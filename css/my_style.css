@@ -6,18 +6,18 @@
 html { width: 100%; height:100%; }
 
 .Off {
-  background-image:url("D:/HP/Desktop/WEB_final/img/pic_bulboff.gif");
+  background-image:url("img/pic_bulboff.gif");
 }
 .On{
-  background-image:url("D:/HP/Desktop/WEB_final/img/pic_bulbon.gif");
+  background-image:url("img/pic_bulbon.gif");
 }
 
 .open {
-  background-image:url("D:/HP/Desktop/WEB_final/img/open.png");
+  background-image:url("img/open.png");
   
 }
 .close{
-  background-image:url("D:/HP/Desktop/WEB_final/img/close.png");
+  background-image:url("img/close.png");
 
 }
 
