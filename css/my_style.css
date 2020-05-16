@@ -33,7 +33,7 @@ justify-content: space-around;
 }
 @font-face {
   font-family: myFirstFont;
-  src: url(D:/HP/Desktop/WEB_final/fonts/Montserrat-Bold.ttf);
+  src: url(../fonts/Montserrat-Bold.ttf);
 }
 .nav-link{
   color: #E29578;
@@ -198,14 +198,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
   padding: 0;
   box-sizing: border-box;
 }
-
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #000;
-} */
 
 .neon {
   position: relative;
